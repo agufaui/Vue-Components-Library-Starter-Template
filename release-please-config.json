@@ -1,0 +1,34 @@
+{
+  "packages": {
+    "packages/core": {
+      "releaseType": "node",
+      "skip-github-release": true,
+      "draft": false,
+      "prerelease": false,
+      "bumpMinorPreMajor": false,
+      "bumpPatchForMinorPreMajor": false,
+      "changelogPath": "CHANGELOG.md",
+      "versioning": "default"
+    },
+    "packages/use": {
+      "releaseType": "node",
+      "skip-github-release": true,
+      "draft": false,
+      "prerelease": false,
+      "bumpMinorPreMajor": false,
+      "bumpPatchForMinorPreMajor": false,
+      "changelogPath": "CHANGELOG.md",
+      "versioning": "default"
+    },
+    ".": {
+      "releaseType": "node",
+      "skip-github-release": true,
+      "draft": false,
+      "prerelease": false,
+      "bumpMinorPreMajor": false,
+      "bumpPatchForMinorPreMajor": false,
+      "changelogPath": "CHANGELOG.md",
+      "versioning": "default"
+    }
+  }
+}
